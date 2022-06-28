@@ -38,6 +38,15 @@ html * {
 .sushi {
   background-color: #e5d198;
 }
+.item1 {
+  background-color: #e5d198;
+}
+.item2 {
+  background-color: bisque;
+}
+.item3 {
+  background-color: cadetblue;
+}
 
 /* Tablet Version */
 @media only screen and (max-width: 992px) {
