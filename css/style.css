@@ -1,0 +1,64 @@
+html * {
+  font-family: "Oswald", sans-serif;
+}
+
+.site-title {
+  color: brown;
+  text-align: center;
+}
+.menu-items {
+  border-color: rgb(19, 129, 180);
+  border: 2px soli;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+.menu-description {
+  float: left;
+  margin: 15px 0px 0px 0px;
+}
+.p-title {
+  border: 2px solid black;
+  float: right;
+  margin: 0px;
+  padding: 0px 10px 0px 10px;
+}
+.menu-box {
+  border: 2px solid black;
+  padding: 0px 0px 15px 15px;
+  background-color: grey;
+}
+.chicken {
+  background-color: #d59898;
+}
+.beef {
+  background-color: #c14543;
+  color: white;
+}
+.sushi {
+  background-color: #e5d198;
+}
+
+/* Tablet Version */
+@media only screen and (max-width: 992px) {
+  .menu-items {
+    flex-wrap: wrap;
+  }
+  .menu-items > * {
+    flex: 1 1 20em;
+  }
+
+  /*   .max-content {
+    flex-basis: 100%;
+  } */
+}
+
+/* Mobile Version */
+@media only screen and (max-width: 767px) {
+  .menu-items {
+    flex-direction: column;
+  }
+  .menu-items > * {
+    flex: 1 1 100%;
+  }
+}
